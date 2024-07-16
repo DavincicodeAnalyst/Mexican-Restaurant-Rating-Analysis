@@ -43,7 +43,7 @@ I later noticed while working on the project that the Consumer Preference table 
 
 Auto Model                   |       Adjusted Model
 :---------------------------:|:-----------------------------------------:
-![](no_relationship.png)     |     ![](after_creating_relationship.png)
+![](no_relationship.png)     |     ![](correct_relationship.png)
 
 # Creating New Relationship between Tables
 
