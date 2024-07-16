@@ -33,10 +33,10 @@ This analysis was done using **Power BI** and the Datasets used were precisely p
 
 # Data Importation and Transformation
 Firstly, I downloaded the CSV files and imported them separately into Power Query Editor. I imported the Customer Preferences table first into Power Query Editor, and it looked clean but I decided to rename some columns. 
-Then I imported the second table, Consumers, I noticed lots of empty cells (null values), data types on all columns were accurate. I replaced the null values in the Budget, Occupation, Children, Marital Status, Transportation Method and Smoker Columns with unknown using the find and replace function in Power Query Editor. 
+Then I imported the second table, Consumers, I noticed lots of empty cells (null values), data types on all columns were accurate. I replaced the null values in the Budget, Occupation, Children, Marital Status, Transportation Method and Smoker Columns with **unknown** using the find and replace function in Power Query Editor. 
 The next dataset I imported was the Ratings dataset. Everything looked precise, datatypes were accurate and there wasn’t any null values. 
 The Restaurant Cuisines dataset had only two columns, no errors, no null values and all datatypes were accurate.
-The last dataset I imported was the Restaurants dataset. It had 56 null values in the zip code column which I replaced with 0. I changed the datatype of the zip code column from Decimal Number to ‘whole number 123’. I also renamed a column to Restaurant Name. However, I eventually had no use for the zip code column in this analysis, despite the corrections made, it just turned out to be good practice.
+The last dataset I imported was the Restaurants dataset. It had 56 null values in the zip code column which I replaced with 0. I changed the datatype of the zip code column from Decimal Number to ‘whole number 123’. I also renamed a column to Restaurant Name. However, I eventually had no use for the zip code column in this analysis, despite the corrections made. It just turned out to be good practice.
 
 # Modelling
 I later noticed while working on the project that the Consumer Preference table was a little bit isolated and wasn’t connected to the other tables, and I proceeded to manage the relationship between the Consumer Preference table and the Consumers table using the Consumer ID columns in each table as the connecting factor in other for all tales to interact accurately with each other. See images below;
