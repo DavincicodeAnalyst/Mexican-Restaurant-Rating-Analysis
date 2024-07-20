@@ -2,6 +2,16 @@
 
 ![](restaurant_image.jpg)
 ---
+# Table of Content
+- Introduction
+- Problem Statement
+- Skills demonstrated
+- Data sourcing
+- Data importation and transformation
+- Modelling
+- Creating new relationships between tables
+- Findings
+- Recommendation and Conclusion 
 
 # Introduction
 ![](welcome_note_2.jpg)
@@ -45,7 +55,7 @@ Auto Model                   |       Adjusted Model
 :---------------------------:|:-----------------------------------------:
 ![](no_relationship.png)     |     ![](correct_relationship.png)
 
-# Creating New Relationship between Tables
+# Creating New Relationships between Tables
 
 ![](Consumer_ID_relationship.png)
 ---
